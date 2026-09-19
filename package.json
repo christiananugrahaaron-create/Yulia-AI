@@ -1,0 +1,10 @@
+{
+  "name":"yulia-ai",
+  "version":"0.1.0",
+  "private":true,
+  "description":"Yulia - modern desktop voice assistant",
+  "main":"dist/main.js",
+  "scripts":{"dev":"electron-vite dev","build":"electron-vite build","preview":"electron-vite preview"},
+  "dependencies":{"@vitejs/plugin-react":"latest","electron":"latest","electron-vite":"latest","react":"latest","react-dom":"latest"},
+  "devDependencies":{"typescript":"latest","vite":"latest","@types/react":"latest","@types/react-dom":"latest"}
+}
